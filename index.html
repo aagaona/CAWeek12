@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPG: Deck Tracker</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Power Play Gamez</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <div class="container-xl" id="titlebox">
+        <h1>Commander Deck Tracker</h1>
+        <hr>
+        <input type="text" id="newCommander" placeholder="Commander Name" class="form-control">
+        <button class="btn btn-dark form-control" id="addCommander">Add Commander Deck</button>
+    </div>
+    <br>
+
+    <div id="deckBody">
+
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js""></script>
+  </body>
+
+  <footer>
+    <p>🏰 Property of Power Play Gamez 🏰</p>
+  </footer>
+
+</html>
